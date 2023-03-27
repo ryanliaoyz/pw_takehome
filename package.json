@@ -1,7 +1,7 @@
 {
   "name": "take-home",
   "version": "0.1.0",
-  "homepage": "http://ryanliaoyz.github.io/pw_takehome",
+  "homepage": "http://ryanliaoyz.github.io/pw_takehome/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.5.3",
