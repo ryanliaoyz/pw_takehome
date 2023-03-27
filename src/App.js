@@ -9,13 +9,13 @@ import Contact from './contact';
 function App() {
   let path
   switch (window.location.pathname) {
-    case "/pw_takehome":
+    case "/":
       path = <Intro />
       break
-    case "/pw_takehome/data":
+    case "/data":
       path = <Data />
       break
-    case "/pw_takehome/contact":
+    case "/contact":
       path = <Contact />
       break
   }
