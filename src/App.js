@@ -1,6 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
-import { ChakraProvider, Switch } from '@chakra-ui/react'
+import '../src/App.css';
+import { ChakraProvider } from '@chakra-ui/react'
 import Navi from './navigation';
 import Intro from './intro';
 import Data from './data';
@@ -25,12 +25,17 @@ function App() {
   return (
    
     <BrowserRouter>
-      <div>
-      <Navi />
+    <Navi />
+      <div className='content'>
+      
        <Routes>
-          <Route path="/" element={<Intro />} />
-          <Route path="/data" element={<Data />} />
-          <Route path="/contact" element={<Contact />} />
+
+          <Route path="/" Component={Intro} />
+          <Route path="/pw_takehome" Component={Intro} />
+          <Route path="/data" Component={Data} />
+          <Route path="/contact" Component={Contact} />
+  
+          
        </Routes>
       </div>
        

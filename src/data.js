@@ -1,6 +1,6 @@
 import React, {Component, useState, useEffect} from 'react';
 import Papa, { parse } from 'papaparse';
-
+import './App.css';
 import csvFile from '../src/data.csv';
 import { Table, TableContainer, Tbody, Thead, Tr, Th, Td } from '@chakra-ui/react';
 
@@ -35,7 +35,7 @@ export default function Data() {
         return (
             <div className='dataTable'>
                 
-                <TableContainer>
+                <TableContainer variant='striped' colorScheme='teal'>
                     <Table>
                         <Thead>
                             <Tr>
