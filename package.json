@@ -1,7 +1,7 @@
 {
   "name": "take-home",
   "version": "0.1.0",
-  "homepage": "http://ryanliaoyz.github.io/",
+  "homepage": "http://ryanliaoyz.github.io/pw_takehome/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.5.3",
@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-papaparse": "^4.1.0",
+    "react-router": "^6.9.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
     "xlsx": "^0.18.5"
