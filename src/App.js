@@ -12,10 +12,10 @@ function App() {
     case "/pw_takehome/":
       path = <Intro />
       break
-    case "/pw_takehome/data/":
+    case "/pw_takehome/data":
       path = <Data />
       break
-    case "/pw_takehome/contact/":
+    case "/pw_takehome/contact":
       path = <Contact />
       break
   }
