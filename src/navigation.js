@@ -1,16 +1,19 @@
+import { Outlet, Link } from "react-router-dom";
 export default function Navi() {
     return (
+        <>
         <nav className="nav">
-            <a href="../pw_takehome" className="title">PeopleWeave Take Home</a>
+            <Link to="/" className="title">PeopleWeave Take Home</Link>
             <ul>
                 <li>
-                    <a href="../pw_takehome/data">Data</a>
+                    <Link to="/data">Data</Link>
                 </li>
                 <li>
-                    <a href="../pw_takehome/contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
-
+        <Outlet />
+        </>
     );
 }
