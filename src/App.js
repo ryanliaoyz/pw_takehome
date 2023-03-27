@@ -31,7 +31,7 @@ function App() {
        <Routes>
 
           <Route path="/" Component={Intro} />
-          <Route path="/pw_takehome/" Component={Intro} />
+          <Route path="/intro" Component={Intro} />
           <Route path="/data" Component={Data} />
           <Route path="/contact" Component={Contact} />
   
