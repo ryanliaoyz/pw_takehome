@@ -8,7 +8,7 @@ export default function Navi() {
             <Link to="/" className="title">PeopleWeave Take Home</Link>
             <ul>
                  <li>
-                    <Link to="/intro">Data</Link>
+                    <Link to="/intro">Introduction</Link>
                 </li>
                 <li>
                     <Link to="/data">Data</Link>
